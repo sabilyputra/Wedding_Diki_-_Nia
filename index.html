@@ -1,0 +1,311 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Diki & Nia Wedding</title>
+
+  <!-- Bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sacramento&family=Work+Sans:wght@100;300;400;600;700&display=swap" 
+  rel="stylesheet">
+
+  <!-- simplyCountdown -->
+  <link rel="stylesheet" href="countdown/simplyCountdown.theme.default.css">
+  <script src="countdown/simplyCountdown.umd.js"></script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<script>
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+
+    document.querySelector(this.getAttribute('href')).scrollIntoView({
+      behavior: 'smooth'
+    });
+  });
+});
+</script>
+
+<body>
+
+<section id="hero" class="hero d-flex justify-content-center align-items-center text-center text-white">
+  <main>
+    <h4>Kepada Yth : Bapak/Ibu/Saudara/i</h4>
+    <h1>Diki Wahyudi & Shabania</h1>
+    <p>Akan melangsungkan resepsi pernikahan dalam :</p>
+    
+
+    <!-- COUNTDOWN -->
+    <div class="simply-countdown"></div>
+
+    <a href="#undangan" class="btn btn-lg mt-4">Lihat Undangan</a>
+  </main>
+<!--</section>
+<section id="undangan" style="min-height:100vh; padding:100px 20px;">-->
+</section>
+
+<nav class="navbar mynavbar bg-transparent sticky-top">
+
+  <div class="container">
+    <a class="navbar-brand" href="#">Nia Wedding</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end"
+     tabindex="-1"
+     id="offcanvasNavbar"
+     aria-labelledby="offcanvasNavbarLabel"
+     data-bs-scroll="true"
+     data-bs-backdrop="false">
+
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Nia Wedding</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+         <div class="navbar-nav ms-auto">
+        <a class="nav-link" href="#home">Home</a>
+        <a class="nav-link" href="#info">Info</a>
+        <a class="nav-link" href="#story">Story</a>
+        <a class="nav-link" href="#gallery">Gallery</a>
+        <a class="nav-link" href="#rsvp">Rsvp</a>
+        <a class="nav-link" href="#gifts">Gifts</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</nav>
+<section id="home" class="home">
+  <div class="container">
+
+    <div class="row justify-content-center">
+      <div class="col-md-8 text-center">
+        <h2>Acara Pernikahan</h2>
+        <h3>Diselenggarakan pada 23 Maret 2026 di Cirebon, Jawa Barat.</h3>
+        <p>
+          Oleh karena itu, dengan segala hormat, <br>
+          kami bermaksud untuk mengundang Bapak/Ibu,
+          Saudara/i, untuk hadir pada acara pernikahan kami.
+        </p>
+      </div>
+    </div>
+
+    <div class="row couple mt-5">
+
+      <div class="col-lg-6">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-8 text-end">
+            <h3>Diki Wahyudi</h3>
+            <p>Putra tercinta dari keluarga <br> Bpk Dedi dan Ibu Titi</p>
+          </div>
+          <div class="col-4">
+            <img src="img/DIK.jpg.jpeg" class="img-fluid rounded-circle">
+          </div>
+        </div>
+      </div>
+
+      <span class="heart"><i class="bi bi-suit-heart-fill"></i></span>
+
+      <div class="col-lg-6">
+        <div class="row justify-content-center align-items-center">
+          <div class="col-4">
+            <img src="img/NI.jpg.jpeg" class="img-fluid rounded-circle">
+          </div>
+          <div class="col-8">
+            <h3>Shabania</h3>
+            <p>Putri tercinta dari keluarga <br> Bpk Ramli dan Ibu Ningsih</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+
+<section id="info" class="info">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-md-9 col-10 text-center">
+<h2>Informasi Acara</h2>
+<p class="alamat">Alamat Pelaksanaan Akad Nikah :  Tanjakan Sijompong Dusun Rambut Kasih Rt 04 / Rw 04 Desa Gumulung Tonggoh Kecamatan Greged Kabupaten Cirebon Jawa Barat </p>
+  <a href="https://maps.app.goo.gl/pZoUBbLe4bYuCn9g7" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+<br> <br> <p class="alamat">Alamat Resepsi Pernikahan : Rt 04 / Rw 05 Dusun buyut Blok Serongan Desa Gumulung Tonggoh Kecamatan Greged Kabupaten Cirebon Jawa Barat </p>
+  <a href="https://maps.app.goo.gl/ttNBBBnPwsN5GCBs9" target="_blank" class="btn btn-light btn-sm my-3">Klik untuk membuka peta</a>
+  <p class="description">Diharapkan untuk tidak salah alamat dan tanggal. Manakala tiba di tujuan namun tidak ada tanda-tanda sedang dilangsungkan pernikahan, bisa jadi Anda salah jadwal atau salah tempat</p>
+      </div>
+    </div>
+
+    <div class="row justify-content-center mt-4">
+      <div class="col-md-5 col-10">
+        <div class="card text-center text-bg-light mb-5">
+  <div class="card-header">Akad Nikah</div>
+  <div class="card-body">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <i class="bi bi-clock d-block"></i>
+        <span>08.00 - 10.00</span>
+      </div>
+      <div class="col-md-6">
+        <i class="bi bi-calendar3 d-block"></i>
+        <span>Senin, 23 Maret 2026</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer ">
+    Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusuan seluruh prosesi.
+  </div>
+</div>
+      </div>
+      <div class="col-md-5 col-10">
+        <div class="card text-center text-bg-light">
+  <div class="card-header">Resepsi</div>
+  <div class="card-body">
+    <div class="row justify-content-center">
+      <div class="col-md-6">
+        <i class="bi bi-clock d-block"></i>
+        <span>11.00 - selesai</span>
+      </div>
+      <div class="col-md-6">
+        <i class="bi bi-calendar3 d-block"></i>
+        <span>Senin, 23 Maret 2026</span>
+      </div>
+    </div>
+  </div>
+  <div class="card-footer ">
+    Saat acara akad diharapkan untuk kondusif menjaga kekhidmatan dan kekhusuan seluruh prosesi.
+  </div>
+</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="story" class="story">
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-md-8 col-10 text-center">
+      <span>Bagaimana Cinta Kami Dipertemukan</span>
+      <h2>Cerita Kami</h2>
+      <p>Berawal dari pertemuan pertama ketika Sd yang hanya saling tatap tetapi belum saling kenal, 
+        hingga sekarang yang akan menjalin hubungan lebih serius lagi.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="col">
+      <ul class="timeline">
+        <li>
+          <div class="timeline-image" style="background-image: url(img/SDN\ GMLNG.webp);"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Pertama Bertemu</h3>
+                <span></span>
+              </div>
+              <div class="timeline-body">
+                <p>Ketika pertemuan pertama di SD hanya sebatas mengagumi kakak kelas yang bernama Diki 
+                  dan entah mengapa tidak melanjutkan untuk perkenalan lebih dekat</p>
+              </div>
+            </div>
+        </li>
+
+         <li>
+          <div class="timeline-image" style="background-image: url(img/SDN\ GMLNG.webp);"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Pertama Bertemu</h3>
+                <span></span>
+              </div>
+              <div class="timeline-body">
+                <p>Ketika pertemuan pertama di SD hanya sebatas mengagumi kakak kelas yang bernama Diki 
+                  dan entah mengapa tidak melanjutkan untuk perkenalan lebih dekat</p>
+              </div>
+            </div>
+        </li>
+
+         <li>
+          <div class="timeline-image" style="background-image: url(img/SDN\ GMLNG.webp);"></div>
+            <div class="timeline-panel">
+              <div class="timeline-heading">
+                <h3>Pertama Bertemu</h3>
+                <span></span>
+              </div>
+              <div class="timeline-body">
+                <p>Ketika pertemuan pertama di SD hanya sebatas mengagumi kakak kelas yang bernama Diki 
+                  dan entah mengapa tidak melanjutkan untuk perkenalan lebih dekat</p>
+              </div>
+            </div>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+</div>
+
+</section>
+
+
+<section id="gallery" class="gallery">
+  <div class="container">
+    <div class="row justify-content-center">
+    <div class="col-md-8 col-10 text-center">
+      <span>Memori Kisah Kami</span>
+      <h2>Galeri Foto</h2>
+      <p></p>
+    </div>
+  </div>
+
+<div class="row row-col-md-3 row-col-sm-2 row-col-1">
+<div class="col mt-3">
+  <a href="img/gallery/NIDIK2.jpeg">
+    <img src="img/gallery/thumbnail/NIDIK2.jpeg" alt=" Diki & Nia 1" class="img-fluid w-100 rounded">
+  </a>
+</div>
+<div class="col mt-3">
+  <a href="img/gallery/NIDIK1.jpeg">
+    <img src="img/gallery/thumbnail/NIDIK1.jpeg" alt=" Diki & Nia 1" class="img-fluid w-100 rounded">
+  </a>
+</div>
+<div class="col mt-3">
+  <a href="img/gallery/NIDIK3.jpeg">
+    <img src="img/gallery/thumbnail/NIDIK3.jpeg" alt=" Diki & Nia 1" class="img-fluid w-100 rounded">
+  </a>
+</div>
+</div>
+
+  </div>
+</section>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Countdown Script -->
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+  simplyCountdown('.simply-countdown', {
+    year: 2026,
+    month: 3,
+    day: 23,
+    hour: 8,
+    minute: 0,
+    second: 0,
+    zeroPad: true,
+    enableUtc: false
+  });
+});
+</script>
+
+</body>
+
+</html>
