@@ -469,6 +469,12 @@ laptop*/
     border-right: 12px solid #ddd !important;
     border-left: none !important;
   }
+  
+  .offcanvas {
+    width: 50% !important;
+    border-left: 1px solid rgba(255,255,255,.1);
+    backdrop-filter: blur(6px);
+  }
     }
 
 /*mobile phone*/
